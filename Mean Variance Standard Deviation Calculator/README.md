@@ -1,10 +1,10 @@
 # Mean-Variance-Standard Deviation Calculator
 
-Create a function named `calculate()` in `mean_var_std.py` that uses Numpy to output the mean, variance, standard deviation, max, min, and sum of the rows, columns, and elements in a 3 x 3 matrix.
+This project required me to use Numpy to create a custom function capable of outputting the mean, variance, standard deviation, max, min and sum of the rows, columns and elements in a 3 x 3 matrix, given an input of a list of 9 digits.
 
-The input of the function should be a list containing 9 digits. The function should convert the list into a 3 x 3 Numpy array, and then return a dictionary containing the mean, variance, standard deviation, max, min, and sum along both axes and for the flattened matrix.
+This `calculate()` function needed to first convert the list into a 3 x 3 Numpy array, and then return a dictionary containing the mean, variance, standard deviation, max, min, and sum along both axes, as well as for the the entire flattened matrix.
 
-The returned dictionary should follow this format:
+The returned dictionary follows this format:
 
 ```
 {
@@ -17,7 +17,9 @@ The returned dictionary should follow this format:
 }
 ```
 
-If a list containing less than 9 elements is passed into the function, it should raise a `ValueError` exception with the message: "List must contain nine numbers." The values in the returned dictionary should be lists and not Numpy arrays.
+Additionally, if a list containing less than 9 elements was passed into the function, it needed to raise a `ValueError` exception with the message: "List must contain nine numbers." 
+
+Finally, the values in the returned dictionary needed to be lists and not Numpy arrays.
 
 For example, `calculate([0,1,2,3,4,5,6,7,8])` should return:
 
