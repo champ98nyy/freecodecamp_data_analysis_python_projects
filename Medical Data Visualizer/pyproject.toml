@@ -1,0 +1,13 @@
+[tool]
+[tool.poetry]
+name = "root"
+version = "0.0.0"
+description = "Medical Data Visualizer project for freecodecamp.org's Data Analysis with Python Certification"
+authors = ["Josh Klein <joshklein.dev@gmail.com>"]
+
+[tool.poetry.dependencies]
+pandas = "*"
+python = "^3.8"
+seaborn = "*"
+numpy = "^1.23.3"
+matplotlib = "^3.5.3"

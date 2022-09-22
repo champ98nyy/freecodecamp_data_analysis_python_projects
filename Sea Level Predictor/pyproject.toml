@@ -1,0 +1,11 @@
+[tool]
+[tool.poetry]
+name = "root"
+version = "0.0.0"
+description = "Sea Level Predictor project for freecodecamp.org's Data Analysis with Python Certification"
+authors = ["Josh Klein <joshklein.dev@gmail.com>"]
+
+[tool.poetry.dependencies]
+pandas = "*"
+python = "^3.7"
+scipy = "*"
