@@ -2,8 +2,9 @@
 
 For this project, Pandas, Matplotlib and Seaborn were used to analyze and visualize a dataset containing the number of page views/day on the freeCodeCamp.org forum from 2016-05-09 to 2019-12-03.
 By visualizing the time series data using a line chart, bar chart and box plots, I was able to identify patterns in visits and identify yearly and monthly growth.
+
 ## Tasks
-Use the data to complete the following tasks:
+The data was used to complete the following tasks:
 
 - Use Pandas to import the data from "fcc-forum-pageviews.csv". Set the index to the `date` column.
 - Clean the data by filtering out days when the page views were in the top 2.5% of the dataset or bottom 2.5% of the dataset.
