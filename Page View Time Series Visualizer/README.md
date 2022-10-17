@@ -13,3 +13,5 @@ The data was used to complete the following tasks:
 - Create a `draw_box_plot` function that uses Seaborn to draw two adjacent box plots. These box plots should show how the values are distributed within a given year or month and how it compares over time. The title of the first chart should be `Year-wise Box Plot (Trend)` and the title of the second chart should be `Month-wise Box Plot (Seasonality)`. Make sure the month labels on bottom start at `Jan` and the x and y axis are labeled correctly. The boilerplate includes commands to prepare the data.
 
 Full instructions for this project from freecodecamp.org can be found [here](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/page-view-time-series-visualizer)
+
+![TEMP](https://github.com/champ98nyy/freecodecamp_data_analysis_python_projects/blob/master/Page%20View%20Time%20Series%20Visualizer/bar_plot.png?raw=true)
